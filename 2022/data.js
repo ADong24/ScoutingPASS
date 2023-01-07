@@ -76,7 +76,7 @@ var config_data = `
         "type":"counter"
       },
       "Middle Cargo Scored": {
-        "code":"au",
+        "code":"am",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
@@ -94,6 +94,10 @@ var config_data = `
     "teleop": {
       "Upper Cargo Scored": {
         "code":"tu",
+        "title": "Uppoer Cargo Scored",
+        "type":"counter" 
+      "Middle Cargo Scored": {
+        "code":"tm",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
       },
