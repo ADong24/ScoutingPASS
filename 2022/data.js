@@ -135,46 +135,6 @@ var config_data = `
         "filename":"2022/field_image.png"
       }
     },
-    "endgame": {
-      "Climb": {
-        "code":"c",
-        "title": "Climb",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "a":"Attempted but failed<br>",
-          "x":"Not attempted"
-        },
-        "defaultValue":"x"
-      },
-      "If climb failed,<br>Last successful rung,<br>if any": {
-        "code":"lsr",
-        "title": "If climb failed,<br>last successful rung,<br>if any",
-        "type":"radio",
-        "choices":{
-          "1":"Low<br>",
-          "2":"Mid<br>",
-          "3":"High<br>",
-          "4":"Traversal<br>",
-          "n":"No successful rung<br>",
-          "x":"n/a"
-        },
-        "defaultValue":"x"
-      },
-      "Started Climb before Endgame": {
-        "code":"be",
-        "title": "Started climb before EndGame",
-        "type":"bool"
-      },
-      "Num of Robots Climbed": {
-        "code":"cn",
-        "title": "# of alliance bots climbed",
-        "type":"counter"
-      }
-    },
     "postmatch": {
       "Driver Skill": {
         "code":"ds",
