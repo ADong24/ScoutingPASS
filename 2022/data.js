@@ -65,12 +65,17 @@ var config_data = `
       }
     },
     "auton": {
-      "Taxi": {
-        "code":"at",
-        "title": "Taxied?",
+      "Mobility": {
+        "code":"am",
+        "title": "Moved?",
         "type":"bool"
       },
       "Upper Cargo Scored": {
+        "code":"au",
+        "title": "Uppoer Cargo Scored",
+        "type":"counter"
+      },
+      "Middle Cargo Scored": {
         "code":"au",
         "title": "Uppoer Cargo Scored",
         "type":"counter"
