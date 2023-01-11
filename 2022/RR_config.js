@@ -18,19 +18,6 @@ var config_data = `
         "required":"true",
         "disabled":"true"
       },
-      "Match Level":{
-        "code":"l",
-        "type":"level",
-        "choices":{
-          "qm":"Quals<br>",
-          "ef":"Eighth-Final<br>",
-          "qf":"Quarter-Final<br>",
-          "sf":"Semi-Final<br>",
-          "f":"Final"
-        },
-        "defaultValue":"qm",
-        "required":"true"
-      },
       "Match #":{
         "code":"m",
         "type":"match",
@@ -67,7 +54,17 @@ var config_data = `
     "auton": {
       "Mobility": {
         "code":"am",
-        "title": "Moved?",
+        "title": "Moved out?",
+        "type":"bool"
+      },
+      "Docked": {
+        "code":"ado",
+        "title": "Docked?",
+        "type":"bool"
+      },
+      "Engaged": {
+        "code":"aen",
+        "title": "Engaged?",
         "type":"bool"
       },
       "Upper Cargo Scored": {
@@ -107,14 +104,19 @@ var config_data = `
         "title": "Lower Cargo Scored",
         "type":"counter"
       },
+      "Docked": {
+        "code":"tdo",
+        "title": "Docked?",
+        "type":"bool"
+      },
+      "Engaged": {
+        "code":"ten",
+        "title": "Engaged?",
+        "type":"bool"
+      },
       "Was Defended": {
         "code":"wd",
         "title": "Was Defended",
-        "type":"bool"
-      },
-      "Wallbot?": {
-        "code":"wbt",
-        "title": "Wallbot?",
         "type":"bool"
       },
       "Cargo Intake From": {
