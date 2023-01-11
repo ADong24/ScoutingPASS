@@ -96,6 +96,7 @@ var config_data = `
         "code":"tu",
         "title": "Uppoer Cargo Scored",
         "type":"counter" 
+      },
       "Middle Cargo Scored": {
         "code":"tm",
         "title": "Uppoer Cargo Scored",
