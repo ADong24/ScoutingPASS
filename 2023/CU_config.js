@@ -131,10 +131,6 @@ var config_data = `
       "code": "tol",
       "type": "counter"
     },
-    { "name": "Feeder Count",
-      "code": "tfc",
-      "type": "counter"
-    },
     { "name": "Was Defended",
       "code": "wd",
       "type": "bool"
@@ -229,26 +225,11 @@ var config_data = `
       "code": "coo",
       "type": "bool"
     },
-    { "name": "Make good alliance partner?",
-      "tooltip": "Would you want this robot on your alliance in eliminations?",
-      "code": "all",
-      "type": "bool"
-    },
     { "name": "Comments",
       "code": "co",
       "type": "text",
       "size": 15,
       "maxSize": 50
     },
-    { "name": "Confidence Rating",
-      "code": "cnf",
-      "type": "radio",
-      "choices": {
-        "v": "Very Confident<br>",
-        "a": "Average<br>",
-        "n": "Not Confident"
-        },
-      "defaultValue": "a"
-    }
   ]
 }`;
