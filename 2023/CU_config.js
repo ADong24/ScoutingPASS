@@ -201,10 +201,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Swerve drive?",
-      "code": "sd",
-      "type": "bool"
-    },
     { "name": "Speed Rating",
       "code": "sr",
       "type": "radio",
