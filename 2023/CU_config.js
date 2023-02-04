@@ -107,6 +107,10 @@ var config_data = `
       "code": "tct",
       "type": "cycle"
     },
+    { "name": "Failed Cycles",
+      "code": "fc",
+      "type": "counter"
+    },
     { "name": "High Cube Scored",
       "code": "tuh",
       "type": "counter"
