@@ -102,7 +102,7 @@ var config_data = `
       "defaultValue": "x"
     }
   ],
-  "teleop": [
+   "teleop": [
     { "name": "Cycle Timer",
       "code": "tct",
       "type": "cycle"
@@ -215,10 +215,6 @@ var config_data = `
     },
     { "name": "Died/Tipped",
       "code": "d",
-      "type": "bool"
-    },
-    { "name": "Avoided coopertition",
-      "code": "coo",
       "type": "bool"
     },
     { "name": "Comments",
