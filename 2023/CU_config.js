@@ -185,7 +185,7 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "Links Scored",
+    { "name": "Alliance Links Scored",
       "code": "ls",
       "type": "counter"
     },
