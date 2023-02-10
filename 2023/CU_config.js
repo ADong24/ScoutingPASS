@@ -111,6 +111,10 @@ var config_data = `
       "code": "fuc",
       "type": "counter"
     },
+    { "name": "Failed Cone Cycles",
+      "code": "foc",
+      "type": "counter"
+    },
     { "name": "High Cube Scored",
       "code": "tuh",
       "type": "counter"
@@ -121,10 +125,6 @@ var config_data = `
     },
     { "name": "Low Cube Scored",
       "code": "tul",
-      "type": "counter"
-    },
-    { "name": "Failed Cone Cycles",
-      "code": "foc",
       "type": "counter"
     },
     { "name": "High Cone Scored",
