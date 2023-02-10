@@ -107,8 +107,8 @@ var config_data = `
       "code": "tct",
       "type": "cycle"
     },
-    { "name": "Failed Cycles",
-      "code": "fc",
+    { "name": "Failed Cube Cycles",
+      "code": "fuc",
       "type": "counter"
     },
     { "name": "High Cube Scored",
@@ -121,6 +121,10 @@ var config_data = `
     },
     { "name": "Low Cube Scored",
       "code": "tul",
+      "type": "counter"
+    },
+    { "name": "Failed Cone Cycles",
+      "code": "foc",
       "type": "counter"
     },
     { "name": "High Cone Scored",
