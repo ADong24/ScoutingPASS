@@ -103,7 +103,7 @@ var config_data = `
     }
   ],
    "teleop": [
-    { "name": "Failed Cube Cycles",
+   { "name": "Failed Cube Cycles",
       "code": "fuc",
       "type": "counter"
     },
