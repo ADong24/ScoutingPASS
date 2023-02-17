@@ -203,7 +203,7 @@ var config_data = `
       "defaultValue":"3"
     },
     { "name": "Fouls"
-      "code":"foul",
+      "code": "foul",
       "type": "counter"
     },
     { "name": "Died/Tipped",
