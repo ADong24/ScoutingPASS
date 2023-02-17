@@ -174,18 +174,7 @@ var config_data = `
     }
   ],
   "postmatch": [
-    { "name": "Driver Skill",
-      "code": "ds",
-      "type": "radio",
-      "choices": {
-        "n": "Not Effective<br>",
-        "a": "Average<br>",
-        "v": "Very Effective<br>",
-        "x": "Not Observed"
-      },
-      "defaultValue": "x"
-    },
-    { "name": "Alliance Links Scored",
+   { "name": "Alliance Links Scored",
       "code": "ls",
       "type": "counter"
     },
@@ -212,6 +201,10 @@ var config_data = `
         "5": "5 (fast)"
       },
       "defaultValue":"3"
+    },
+    { "name": "Fouls"
+      "code":"foul",
+      "type": "counter"
     },
     { "name": "Died/Tipped",
       "code": "d",
