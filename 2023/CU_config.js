@@ -103,10 +103,6 @@ var config_data = `
     }
   ],
    "teleop": [
-    { "name": "Cycle Timer",
-      "code": "tct",
-      "type": "cycle"
-    },
     { "name": "Failed Cube Cycles",
       "code": "fuc",
       "type": "counter"
