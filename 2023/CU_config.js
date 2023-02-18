@@ -103,6 +103,10 @@ var config_data = `
     }
   ],
    "teleop": [
+   { "name": "Defense Timer",
+     "code": "dti",
+     "type": "cycle"
+   },
    { "name": "Failed Cube Cycles",
       "code": "fuc",
       "type": "counter"
@@ -156,6 +160,10 @@ var config_data = `
     }
   ],
   "endgame": [
+    { "name": "Docking/Engaging Timer",
+     "code": "deti",
+     "type": "cycle"
+    },
     { "name": "Final Status",
       "code": "fs",
       "type":"radio",
