@@ -202,7 +202,7 @@ var config_data = `
       },
       "defaultValue":"3"
     },
-    { "name": "Fouls"
+    { "name": "Fouls",
       "code": "foul",
       "type": "counter"
     },
