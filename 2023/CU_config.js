@@ -186,7 +186,7 @@ var config_data = `
         "2": "2<br>",
         "3": "3<br>",
         "4": "4<br>",
-        "5": "5"
+        "5": "5",
       },
       "defaultValue": "x"
     },
@@ -198,7 +198,7 @@ var config_data = `
         "2": "2<br>",
         "3": "3<br>",
         "4": "4<br>",
-        "5": "5 (fast)<br>",
+        "5": "5 (fast)",
       },
       "defaultValue":"3"
     },
