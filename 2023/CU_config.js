@@ -154,7 +154,7 @@ var config_data = `
         "t": "Substation<br>",
         "g": "Ground<br>",
         "b": "Both<br>",
-        "x": "Not Attempted"
+        "x": "Failed to Collect"
       },
       "defaultValue": "x"
     }
