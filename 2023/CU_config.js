@@ -96,7 +96,7 @@ var config_data = `
       "choices": {
         "d": "Docked (not Engaged)<br>",
         "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
+        "a": "Attempted to dock but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
@@ -170,7 +170,7 @@ var config_data = `
       "choices": {
         "d": "Docked (Not Engaged)<br>",
         "e": "Engaged<br>",
-        "a": "Attempted but failed<br>",
+        "a": "Attempted to dock but failed<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
