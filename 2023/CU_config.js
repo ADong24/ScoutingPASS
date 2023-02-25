@@ -107,6 +107,12 @@ var config_data = `
      "code": "dti",
      "type": "cycle"
    },
+   { "name": "Record Defense",
+     "code": "rde",
+     "type": "text",
+     "size": 10,
+     "maxSize": 15
+    },
    { "name": "Failed Cube Cycles",
       "code": "fuc",
       "type": "counter"
@@ -163,6 +169,12 @@ var config_data = `
     { "name": "Docking/Engaging Timer",
      "code": "deti",
      "type": "cycle"
+    },
+    { "name": "Record Dock/Engage",
+     "code": "rdce"
+     "type": "text",
+     "size": 10,
+     "maxSize": 15
     },
     { "name": "Final Status",
       "code": "fs",
