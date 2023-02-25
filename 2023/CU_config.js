@@ -171,7 +171,7 @@ var config_data = `
      "type": "cycle"
     },
     { "name": "Record Dock/Engage",
-     "code": "rdce"
+     "code": "rdce",
      "type": "text",
      "size": 10,
      "maxSize": 15
