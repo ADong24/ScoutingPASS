@@ -208,6 +208,7 @@ var config_data = `
         "5": "5"
       },
       "defaultValue": "x"
+      "required": "true"
     },
     { "name": "Fouls",
       "code": "foul",
