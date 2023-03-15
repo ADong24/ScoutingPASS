@@ -182,7 +182,8 @@ var config_data = `
       "choices": {
         "d": "Docked (Not Engaged)<br>",
         "e": "Engaged<br>",
-        "a": "Attempted to dock but failed<br>",
+        "pi": "Parked in Community<br>",
+        "po": "Parked outside Community<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
