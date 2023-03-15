@@ -207,7 +207,7 @@ var config_data = `
         "4": "4<br>",
         "5": "5"
       },
-      "required": "true"
+      "required": "true",
       "defaultValue": "x"
     },
     { "name": "Fouls",
