@@ -14,7 +14,7 @@ var config_data = `
     { "name": "Event",
       "code": "e",
       "type": "event",
-      "defaultValue": "TXCMP",
+      "defaultValue": "TXAMA",
       "required": "true",
       "disabled": "true"
     },
