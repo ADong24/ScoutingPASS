@@ -157,9 +157,10 @@ var config_data = `
       "code": "cif",
       "type": "radio",
       "choices": {
-        "t": "Substation<br>",
+        "s": "Single hp<br>",
+        "h": "Double hp<br>",
         "g": "Ground<br>",
-        "b": "Both<br>",
+        "b": "Ground and station<br>",
         "x": "Failed to Collect"
       },
       "defaultValue": "x"
