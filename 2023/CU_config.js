@@ -145,6 +145,10 @@ var config_data = `
       "code": "tol",
       "type": "counter"
     },
+    { "name": "Supercharge Scored",
+      "code": "spc",
+      "type": "counter"
+    },
     { "name": "Was Defended",
       "code": "wd",
       "type": "bool"
