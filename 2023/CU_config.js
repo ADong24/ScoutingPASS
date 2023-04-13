@@ -66,6 +66,17 @@ var config_data = `
       "code": "am",
       "type": "bool"
     },
+    { "name": "Grid Scoring",
+      "code": "tsg",
+      "type": "clickable_image",
+      "filename": "2023/grid_image.png",
+      "dimensions": "9 4",
+      "clickRestriction": "onePerBox",
+      "toggleClick": "true",
+      "showFlip": "false",
+      "showUndo": "false",
+      "shape": "circle 12 black red true"
+    },
     { "name": "High Cube Scored",
       "code": "auh",
       "type": "counter"
