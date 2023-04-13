@@ -189,6 +189,7 @@ var config_data = `
         "e": "Engaged<br>",
         "pi": "Parked in Community<br>",
         "po": "Parked outside Community<br>",
+        "f": "Failed to engage<br>",
         "x": "Not attempted"
       },
       "defaultValue": "x"
