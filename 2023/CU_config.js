@@ -153,10 +153,6 @@ var config_data = `
       "code": "wd",
       "type": "bool"
     },
-    { "name": "Smart Placement (creates Links)",
-      "code": "lnk",
-      "type": "bool"
-    },
     { "name": "Cargo Intake From",
       "code": "cif",
       "type": "radio",
@@ -195,10 +191,6 @@ var config_data = `
       },
       "defaultValue": "x"
     },
-    { "name": "# of alliance bots docked/engaged",
-      "code": "cn",
-      "type": "counter"
-    }
   ],
   "postmatch": [
    { "name": "Alliance Links Scored",
