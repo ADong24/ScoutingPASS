@@ -162,9 +162,10 @@ var config_data = `
       "type": "radio",
       "choices": {
         "s": "Single hp<br>",
-        "h": "Double hp<br>",
+        "d": "Double hp<br>",
         "g": "Ground<br>",
-        "b": "Ground and station<br>",
+        "gd": "Ground and double station<br>",
+        "gs": "Ground and single station<br>",
         "x": "Failed to Collect"
       },
       "defaultValue": "x"
